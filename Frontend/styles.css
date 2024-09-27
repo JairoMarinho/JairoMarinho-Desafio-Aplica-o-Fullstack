@@ -1,0 +1,61 @@
+/* frontend/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .add-task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #new-task-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #add-task-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #tasks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item.completed .task-title {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .task-actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
